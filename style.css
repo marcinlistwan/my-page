@@ -1,8 +1,8 @@
 .nav-header {
   display: inline-block;
   position: sticky;
-  top:20px;
-  bottom: 20px;
+  top: 20px;
+  margin-bottom:20px;
 }
 
 .nav-header a {
@@ -10,31 +10,15 @@
   background-color: #368f24;
   box-sizing: border-box;
   padding: 10px 40px;
-  margin:10px 10px;
+  margin: 10px 10px;
   display: inline;
   text-decoration: none;
-  
-   
-  
 }
 
-.nav-header a:hover{
-    background-color: rgb(0, 56, 9);
-    color:#fff;
+.nav-header a:hover {
+  background-color: rgb(0, 56, 9);
+  color: #fff;
 }
-
-.nav-header a:active{
-    background-color: rgb(0, 56, 9);
-    color:rgb(230, 20, 20);
-}
-
-
-
-a:link - a normal, unvisited link
-a:visited - a link the user has visited
-a:hover - a link when the user mouses over it
-a:active - a link the moment it is clicked
-
 
 .top-header {
   color: rgb(23, 82, 30);
