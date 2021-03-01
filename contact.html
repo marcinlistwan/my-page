@@ -1,43 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marcin Listwan</title>
-    <link rel="stylesheet" href="normalize.css">`
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="normalize.css" />
+    `
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="nav-header">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">O mnie</a>
-            <a href="gallery.html">Galeria</a>  
-            <a href="blog.html">Blog</a>
-            <a class="active" href="contact.html">Kontakt</a>
-        </nav>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">O mnie</a>
+        <a href="gallery.html">Galeria</a>
+        <a href="blog.html">Blog</a>
+        <a class="active" href="contact.html">Kontakt</a>
+      </nav>
     </header>
 
-<main>
-    <header class="top-header">
+    <main>
+      <header class="top-header">
+        <h1 class="main-heading">Kontakt</h1>
+      </header>
 
-    <h1 class="main-heading">Kontakt</h1>
-    </header>
-
-
-        <section>
+      <section>
+        <form class="form">
+          <fieldset>
+            <legend>Jeśli masz pytanie, wypełnij i wyślij formularz</legend>
             <p>
-                Jeśli masz pytania to napisz do mnie: marcin735@gmail.com
+              <label for="firstName">Imię:</label>
+              <input class="form__item"
+                id="firstName"
+                name="firstName"
+                type="text"
+                placeholder="Podaj swoje imię"
+              />
             </p>
 
-        </section>
+            <p>
+              <label for="lastName">Nazwisko:</label>
+              <input class="form__item"
+                id="lastName"
+                name="lastName"
+                type="text"
+                placeholder="Podaj swoje nazwisko"
+              />
+            </p>
 
+            <p>
+              <label for="email">E-mail:</label>
+              <input class="form__item"
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Podaj swój adres e-mail"
+              />
+            </p>
 
-        <footer class="footer">
-            <h5>Created by Marcin Listwan 2021</h5>
-          </footer>
+            <p>
+              <label for="yourMessage">Twoja wiadomość:</label>
+              <textarea class="form__item" id="yourMessage" name="yourMessage"></textarea>
+            </p>
+            <p>
+                <input class="form__item"
+                id="submit"
+                name="submit"
+                type="submit"
+                value="Wyślij"
+              />
+            </p>
+          </fieldset>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <h5>Created by Marcin Listwan 2021</h5>
+      </footer>
     </main>
-</body>
-<script src="main.js"></script>
+  </body>
+  <script src="main.js"></script>
 </html>

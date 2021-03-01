@@ -19,11 +19,14 @@
 
 //main-section--js
 
-function changeP(querySelectorContent, newContent){
+/*function changeP(querySelectorContent, newContent){
     const element = document.querySelector(querySelectorContent);
     element.innerHTML = newContent;
 
 }
 
 changeP('.main-section--js', "Paragraf zostal zmieniony pomyslnie");
+
+*/
+
 
