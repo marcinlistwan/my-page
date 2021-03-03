@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 .nav-header {
   display: flex;
   position: sticky;
@@ -138,3 +145,61 @@ nav a.active {
   grid-template-rows:min-content min-content auto min-content;
 
 }
+
+
+/* - Mobile-first - */
+
+@media screen and (max-width:425px){
+  .nav-header{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    
+    
+    
+  }  
+  .nav-header a{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  
+  .gallery-subtitle{
+    display:none;
+  }
+  .gallery{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+
+    
+  }
+  
+
+  .homepage-grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:min-content min-content auto min-content; 
+  }
+
+  .main-content{
+    display:flex;
+    justify-content:center;
+  }
+
+  .description{
+    width: 400px;
+    font-size: 22px;
+  }
+  .homepage-img{
+    display:flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .animation:hover {
+      transform: none;
+    }
+}
+
