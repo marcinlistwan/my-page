@@ -29,4 +29,13 @@ changeP('.main-section--js', "Paragraf zostal zmieniony pomyslnie");
 
 */
 
+const burger = document.querySelector('.hamburger-menu--js');
+console.log(burger);
+
+burger.addEventListener('click', () =>{
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+    //nav.classList.remove('navigation');
+    //nav.classList.add('navigation--open');
+})
 
