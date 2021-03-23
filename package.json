@@ -1,0 +1,22 @@
+{
+  "name": "marcinlistwan",
+  "version": "1.0.0",
+  "description": "marcin listwan homepage",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcinlistwan/my-page.git"
+  },
+  "author": "marcin listwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcinlistwan/my-page/issues"
+  },
+  "homepage": "https://github.com/marcinlistwan/my-page#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

@@ -209,7 +209,8 @@ margin-top:20px;
   .gallery {
     display: flex;
     justify-content: center;
-    margin-top:5px;
+    margin:5px 5px;
+    
   }
 
   .gallery img {
